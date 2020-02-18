@@ -1,0 +1,30 @@
+#!C:\Users\91780\AppData\Local\Programs\Python\Python37-32\Python.exe
+print('content-type:text/html\r\n\n')
+print('<html>')
+print('<head>')
+print('</head>')
+print('<body style="margin:0;">')
+print('<form method="post">')
+print('<div style="background-image:url(image1.jpg);width:100%;height:15%;font-size:50;font-color:white"><center>NATIONAL INSTITUTE OF TECHNOLOGY HAMIRPUR</center></div>')
+print('<div style="background-image:url(image12.jpg);width:100%;height:85%;font-size:30;">')
+print('<div style="width:85%;height:100%;font-size:30;float:right;">')
+print('<div style="width:80%;height:100%;font-size:30;float:left;">')
+print('<p align="center" style="font-size:30;color:white;margin-left:-4em;">')
+print("<b>Subject Code </b>  : <input type='text' name='SC'>")
+print('<br>')
+print("<b>Branch</b> : <input type='text' name='B'>")
+print('<br>')
+print('<center><input type="submit" name="submit" value="SUBMIT" style="font-size:0.5em;color:blue;display:block;"></center>')
+print('</div>')
+print('</div>')
+print('</div>')
+print('</form></body>')
+print('</html>')
+import project
+import cgi,cgitb
+form=cgi.FieldStorage()
+if form.getvalue("submit"):
+    b=form.getvalue("SC")
+    d=form.getvalue("B")
+    project.addsubject(r,r1)
+    
