@@ -19,11 +19,11 @@ then it will show the results.
 Python version : Python 3
 
 Extra Libraries to be installed : 
-  1.pillow
-  2.tabulate
-  3.openpyxl
-  4.shutil
-  installation example:- pip install pillow
+  * pillow
+  * tabulate
+  * openpyxl
+  * shutil
+  * installation example:- pip install pillow
   
 Microsoft Excel
 
